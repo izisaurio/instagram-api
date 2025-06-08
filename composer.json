@@ -1,0 +1,22 @@
+{
+    "name": "izisaurio/instagram-api",
+    "description": "PHP Api to login to instagram and pubish without business account",
+    "type": "library",
+    "authors": [
+        {
+            "name": "izisaurio",
+            "email": "izi.isaac@gmail.com"
+        }
+    ],
+    "require": {
+        "izisaurio/lite-request": "^1.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Izisaurio\\Instagram\\": "lib/"
+        }
+    }
+}
