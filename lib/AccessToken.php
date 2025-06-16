@@ -124,7 +124,7 @@ class AccessToken
      */
     public function refreshLongLivedToken($longLivedToken)
     {
-        $endpoint = 'https://api.instagram.com/oauth/refresh_access_token';
+        $endpoint = 'https://graph.instagram.com/refresh_access_token';
         $params = [
             'grant_type' => 'ig_refresh_token',
             'access_token' => $longLivedToken,

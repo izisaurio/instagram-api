@@ -10,6 +10,8 @@ if (!empty($_GET)) var_dump($_GET);
 <br/>
 <a href="longToken.php">Long Token</a>
 <br/>
+<a href="refresh.php">Refresh Token</a>
+<br/>
 <a href="container.php">Container</a>
 <br/>
 <a href="status.php">Container Status</a>
